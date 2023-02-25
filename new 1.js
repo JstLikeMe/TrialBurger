@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Build Burgers | Menu</title>
+  <style>
+    * { margin: 0; padding: 0; }
+    header { height: 142px; width: 100%; background-color: #efcccc; }
+    body { background-color: #d4d3d4; }
+    footer { visibility: hidden; }
+    #wrapper { height: 768px; width: 1024px; margin: auto; }
+    section { width: 100%; float: left; }
+    #food-menu-content {
+      height: 502px;
+      width: 844px;
+      padding: 30px 90px 0;
+      background-color: #c7edff;
+    }
+    .order-item {
+      height: 240px;
+      width: 193px;
+      text-align: center;
+      float: left;
+      margin: 10px 10px 0 0;
+    }
+    .order-description { height: 180px; }
+    .order-description img { height: 120px; margin-top: 5px; }
+    .order-description p { color: #000; font-size: 18px; margin-top: 2px; }
+    input.fld-qty { width: 100px; }
+    #other-content { height: 94px; width: 100%; background-color: #fcffc5; }
+    #table-num { float: left; font-size: 42px; margin: 20px 0 0 20px; }
+    .submit-btn, #total-cart-price {
+      float: right;
+      font-size: 42px;
+      margin: 20px 20px 0 0;
+    }
+  </style>
+</head>
+
+<body id="food-menu">
+  <div id="wrapper">
+    <header>
+      <nav></nav>
+    </header>
+    <form>
+      <section id="food-menu-content">
+        <div class="order-item">
+          <div class="order-description">
+            <img src="rm1.png">
+            <p>Aloha Burger</p>
+            <p class="order-price">245</p>
+          </div>
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          <div class="order-quantity">
+            <input type="button" class="btn-inc">
+            <input type="number" min="0" value="0" class="fld-qty">
+            <input type="button" class="btn-dec">
+          </div>
+        </div>
+        <div class="order-item">
+          <div class="order-description">
+            <img src="rm2.png">
+            <p>Black Mamba</p>
+            <p class="order-price">245</p>
+          </div>
+          <button type="button" class="add-to-cart-btn">Add to Cart</button>
+          <div class="order-quantity">
+            <input type="button" class="btn-inc">
+            <input type="number" min="0" value="0" class="fld-qty">
+              <input type="button" class="btn-dec">
+            </div>
+          </div>
+          <div class="order-item">
+                    <div class="order-description">
+                        <img src="rm3.png">
+                        <p>Double Cheese Burger</p>
+                        <p>245</p>
+                    </div>
+                    <button type="button">Add to Cart</button>
+                    <div class="order-quantity">
+                        <input type="button" class="btn-inc">
+                        <input type="number" min="0" value="0" class="fld-qty">
+                        <input type="button" class="btn-dec">
+                    </div>
+                </div>
+				<div class="order-item">
+                    <div class="order-description">
+                        <img src="rm4.png">
+                        <p>Turkey Burger</p>
+                        <p>245</p>
+                    </div>
+                    <button type="button">Add to Cart</button>
+                    <div class="order-quantity">
+                        <input type="button" class="btn-inc">
+                        <input type="number" min="0" value="0" class="fld-qty">
+                        <input type="button" class="btn-dec">
+                    </div>
+                </div>
+            </section>
+            <section id="other-content">
+                <div id="table-num">Table #8</div>
+                <input class="submit-btn" type="submit" value="submit">
+                <div id="total-cart-price">0.00</div>
+            </section>
+        </form>
+      <footer></footer>
+    </div>
+  </body>
+ </html>

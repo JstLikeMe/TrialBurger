@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+	background-image: url('banner2.jpg');
+	background-size: contain;
+	width: 100%;
+	height: 440px;
+}
+
+body {
+  background-color: #d4d3d4;
+}
+
+footer {
+  visibility: hidden;
+}
+
+#wrapper {
+  height: 768px;
+  width: 1024px;
+  margin: auto;
+}
+
+section {
+  width: 100%;
+  float: left;
+}
+
+#food-menu-content {
+  height: 502px;
+  width: 844px;
+  padding: 30px 90px 0;
+  background-color: #c7edff;
+}
+
+.order-item {
+  height: 240px;
+  width: 193px;
+  text-align: center;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
+.order-description {
+  height: 180px;
+}
+
+.order-description img {
+  height: 120px;
+  margin-top: 5px;
+}
+
+.order-description p {
+  color: #000;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+input.fld-qty {
+  width: 100px;
+}
+
+#other-content {
+  height: 94px;
+  width: 100%;
+  background-color: #fcffc5;
+}
+
+#table-num {
+  float: left;
+  font-size: 42px;
+  margin: 20px 0 0 20px;
+}
+
+.submit-btn,
+#total-cart-price {
+  float: right;
+  font-size: 42px;
+  margin: 20px 20px 0 0;
+}
